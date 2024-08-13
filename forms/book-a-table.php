@@ -20,7 +20,7 @@
   $contact->smtp = array(
     'host' => 'smtpout.secureserver.net',
     'username' => 'sales@barbqnite.com',
-    'password' => 'pass',
+    'password' => 'Zxcv##5689',
     'port' => '465'
   ); 
 
