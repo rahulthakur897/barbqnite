@@ -1,7 +1,14 @@
+<html>
+  <body>
+    <?php echo getenv('SMTP_PORT');exit; ?>
+  </body>
+</html>
+
 <?php
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'sales@barbqnite.com';
 
+  echo getenv('SMTP_PORT');
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
   } else {
